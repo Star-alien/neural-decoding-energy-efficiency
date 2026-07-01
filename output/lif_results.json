@@ -1,0 +1,14 @@
+{
+  "r_squared": 0.9372,
+  "pearson_r": 0.972,
+  "energy_fJ_per_inference": 264277.5,
+  "bits_per_spike": 0.004408,
+  "n_synaptic_events_mean": 26428.0,
+  "efficiency_vs_cauwenberghs_bound": 4.3587e-11,
+  "cauwenberghs_bound": {
+    "E_min_fJ": 1.2e-05,
+    "mutual_information_bits": 3.8847,
+    "reference": "Chen, Ahsan, Chakrabartty, Leugering, Cauwenberghs. Phys Rev E 113, 035311 (2026).",
+    "doi": "10.1103/PhysRevE.113.035311"
+  }
+}

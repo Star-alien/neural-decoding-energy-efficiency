@@ -1,0 +1,33 @@
+{
+  "data_source": "synthetic (Poisson, cosine tuning, mimics MC_Maze statistics)",
+  "data_note": "NLB MC_Maze download attempted via nlb_tools but requires DANDI authentication and dataset registration. Synthetic data uses Poisson spike trains with cosine directional tuning, mean firing rates 10-50 Hz, 100 neurons, 200 trials, 1s duration.",
+  "lif_backend": "Brian2",
+  "rate_coding": {
+    "r_squared": 0.99,
+    "pearson_r": 0.9976,
+    "energy_pJ_per_inference": 10000.0,
+    "bits_per_spike": 0.004408,
+    "efficiency_vs_cauwenberghs_bound": 1.1519e-12
+  },
+  "lif_temporal": {
+    "r_squared": 0.9372,
+    "pearson_r": 0.972,
+    "energy_fJ_per_inference": 264277.5,
+    "bits_per_spike": 0.004408,
+    "n_synaptic_events_mean": 26428.0,
+    "efficiency_vs_cauwenberghs_bound": 4.3587e-11
+  },
+  "cauwenberghs_2026_bound": {
+    "E_min_fJ": 1.2e-05,
+    "mutual_information_bits": 3.8847,
+    "reference": "Chen, Ahsan, Chakrabartty, Leugering, Cauwenberghs. Phys Rev E 113, 035311 (2026).",
+    "doi": "10.1103/PhysRevE.113.035311"
+  },
+  "comparison": {
+    "closer_to_bound": "LIF temporal",
+    "lif_advantage_factor": 37.8,
+    "rate_energy_pJ": 10000.0,
+    "lif_energy_fJ": 264277.5,
+    "bound_energy_fJ": 1.2e-05
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "r_squared": 0.99,
+  "pearson_r": 0.9976,
+  "energy_pJ_per_inference": 10000.0,
+  "bits_per_spike": 0.004408,
+  "efficiency_vs_cauwenberghs_bound": 1.1519e-12
+}

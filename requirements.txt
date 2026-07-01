@@ -1,0 +1,8 @@
+numpy
+scipy
+matplotlib
+scikit-learn
+brian2>=2.5
+# nlb-tools: for real MC_Maze data (requires DANDI account registration)
+#   pip install nlb-tools
+#   Dataset: https://dandiarchive.org/dandiset/000128
