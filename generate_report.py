@@ -574,7 +574,7 @@ def main():
         canvas.setFillColor(LTGRAY)
         canvas.drawString(0.75*inch, 0.45*inch,
             "Spike-Efficient Neural Decoding · Avani Agarwal · UCSD · "
-            "DOI: 10.1103/PhysRevE.113.035311")
+            "Extending Chen et al., Phys Rev E (2026)")
         canvas.drawRightString(w - 0.75*inch, 0.45*inch,
             f"Page {doc.page}")
         if doc.page > 1:
